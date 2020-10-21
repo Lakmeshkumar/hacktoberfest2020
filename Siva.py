@@ -3,6 +3,21 @@ using namespace std;
 
 int main()
 {
+ patch-3
+    int a = 5, b = 10, temp;
+
+    cout << "Before swapping." << endl;
+    cout << "a = " << a << ", b = " << b << endl;
+
+    temp = a;
+    a = b;
+    b = temp;
+
+    cout << "\nAfter swapping." << endl;
+    cout << "a = " << a << ", b = " << b << endl;
+
+    return 0;
+
  patch-4
  char c;
  cout << "Enter a character: ";
@@ -22,5 +37,6 @@ int main()
     cout << firstNumber << " + " <<  secondNumber << " = " << sumOfTwoNumbers;     
 
     return 0;
+ main
  main
 }
